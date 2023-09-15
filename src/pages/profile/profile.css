@@ -1,0 +1,32 @@
+body{
+   background-color: var(--color-grey-2);
+}
+main{
+    width: 100%;
+}
+
+ul{
+    width: 784px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
+    list-style: none;
+  /*   border: 1px solid red; */
+}
+
+li{
+    width: 381px;
+    height: 243px;
+    border: 2px solid var(--color-grey-4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+    padding-left: 27px;
+}
+li:hover{
+    border: 2px solid var(--color-grey-7);
+    background-color: var(--color-grey-1);
+}
